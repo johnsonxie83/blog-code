@@ -12,9 +12,7 @@ tags:
 
 2. 查看`GitHub Pages`功能是否开启
 
-    创建完以后点击菜单`Settings`，找到`GitHub Pages-Source`选项，如果已经显示出`Your site is published at https://'GitHub的用户名'.github.io/`，则跳过以下步骤，如果选项内容为空，则选择`master branch`，点击`Save`。
-    
-    访问`https://'GitHub的用户名'.github.io/`，如果可以正常访问，那么`Github`的配置就结束了。
+    创建完以后点击菜单`Settings`，找到`GitHub Pages-Source`选项，如果已经显示出`Your site is published at https://'GitHub的用户名'.github.io/`，则跳过以下步骤，如果选项内容为空，则选择`master branch`，点击`Save`。访问`https://'GitHub的用户名'.github.io/`，如果可以正常访问，那么`Github`的配置就结束了。
 
 
 ### 安装配置Hexo
@@ -61,12 +59,10 @@ tags:
 2. 配置Deployment
 
     修改`_config.yml`配置文件：
-
-    - 把第 6 行的`title`改成你想要的名字
-    - 把第 9 行的`author`改成你的大名
-    - 把最后一行的`type`改成`type: git`，注意`type`冒号后面需要一个空格
-    - 在最后一行后面新增一行，左边与`type`平齐，加上一行`repo: 仓库地址`（请将仓库地址改为`GitHub的用户名.github.io`对应的仓库地址，仓库地址以`git@github.com:`开头），注意`repo`冒号后面有一个空格
-
+    a.把第 6 行的`title`改成你想要的名字
+    b.把第 9 行的`author`改成你的大名
+    c.把最后一行的`type`改成`type: git`，注意`type`冒号后面需要一个空格
+    d.在最后一行后面新增一行，左边与`type`平齐，加上一行`repo: 仓库地址`（请将仓库地址改为`GitHub的用户名.github.io`对应的仓库地址，仓库地址以`git@github.com:`开头），注意`repo`冒号后面有一个空格
     配置完后，安装`Git`部署插件，命令行执行以下命令：`npm install hexo-deployer-git --save`
 
 3. 发布文章

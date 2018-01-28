@@ -12,9 +12,8 @@ tags: null
 
 2. 为什么要使用`NVM`工具
 
-  * 因为`Node.js`不同版本支持的特性不一致，开发的项目需要涉及到兼容性问题。
-  * 开发的项目涉及到某个模块只支持特定的`Node.js`版
-
+  a.因为`Node.js`不同版本支持的特性不一致，开发的项目需要涉及到兼容性问题。
+  b.开发的项目涉及到某个模块只支持特定的`Node.js`版
   对于以上两种情况，我们都需要在开发的过程中切换`Node.js`不同版本，而`NVM`能够做到快速切换和管理`Node.js`版本，其实对于`NVM`可以理解为`Python`的`virtualenv`或者`Ruby`的`rvm`，每个`Node.js`版本的模块都会被安装在各自版本的沙箱里面。(注：[Node.js发展历史](http://www.infoq.com/cn/articles/node-js-and-io-js/))
 
 ### NVM安装
